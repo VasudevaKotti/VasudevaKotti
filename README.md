@@ -20,11 +20,17 @@ question into a mass-balance simulation. A quarter of a million lines of Python 
 React front end, 27 API routers, more than 1,300 tests, and every interface string
 mirrored in English and Arabic — 2,012 of each.
 
-The platform itself is client work and stays private. The architecture decisions are
-mine to share, and they are public here:
+The platform itself is client work and stays private. Alongside it, I architected a
+**neuro-symbolic consumer AI platform** (Web PWA + native iOS and Android mobile apps for Apple App Store and Google Play) that pairs a 4-stage LLM semantic planner and
+code-assembled narrator with a 68-rule deterministic temporal engine, stateless RS256
+plan replay, multimodal vision pipelines, and verified 9-language localization.
 
-**[sovereign-llm-architecture](https://github.com/VasudevaKotti/sovereign-llm-architecture)** —
-field notes on building LLM systems where the network cable does not exist.
+The architecture decisions and system designs for both platforms are public here:
+
+- **[sovereign-llm-architecture](https://github.com/VasudevaKotti/sovereign-llm-architecture)** —
+  field notes on building air-gapped, bilingual LLM systems, grounded RAG, and sandboxed code execution where the network cable does not exist.
+- **[KottiAstro](https://github.com/VasudevaKotti/KottiAstro)** ([www.kottiastro.com](https://www.kottiastro.com) · Web, iOS & Android) —
+  neuro-symbolic AI platform architecture: hybrid LLM semantic planning, a deterministic temporal engine (`LPRC`), code-assembled prose generation, single-gateway fault tolerance, and multi-tier guardrails.
 
 ## What I have come to care about
 
